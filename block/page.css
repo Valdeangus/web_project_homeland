@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Inter, sans-serif;
+  src: url(/fonts/InterVariable.ttf);
+}
+
+.page {
+  max-width: 1280px;
+  min-width: 320px;
+  background: #2a2c2f;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    color: #fff;
+    font-family: Inter, sans-serif;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    color: #fff;
+    font-family: Inter, sans-serif;
+  }
+}
+

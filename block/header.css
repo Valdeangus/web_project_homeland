@@ -1,0 +1,158 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.header__logo {
+  margin: 34px auto 90px auto;
+  /* justify-content: cespanter; */
+}
+
+.header__logo_image {
+  max-width: 270px;
+  width: 270px;
+  max-height: 70px;
+}
+
+.header__text_title {
+  max-width: 793px;
+  width: 793px;
+  max-height: 200px;
+  font-family: Inter;
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 6.25rem;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0 auto 32px auto;
+}
+
+.header__text_subtitle {
+  max-width: 720px;
+  width: 720px;
+  max-height: 72px;
+  font-family: 'Inter';
+  font-size: 1.87rem;
+  font-weight: 400;
+  line-height: 2.25rem;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0 auto 64px auto;
+}
+
+.header__image {
+  margin: 0 auto 92px auto;
+}
+
+.image {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image__logo {
+    display: flex;
+    margin: 34px auto 90px auto;
+  }
+
+  .logo {
+    max-width: 270px;
+    width: 270px;
+    height: 70px;
+  }
+
+  .header__title {
+    max-width: 720px;
+    width: 720px;
+    max-height: 200px;
+    font-family: Inter;
+    font-size: 6em;
+    font-weight: 900;
+    line-height: 6.25em;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 auto 90px auto;
+  }
+
+  .header__subtitle {
+    max-width: 720px;
+    max-height: 72px;
+    font-family: Inter;
+    font-size: 1.87em;
+    font-weight: 400;
+    line-height: 2.25em;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 auto 64px auto;
+  }
+
+  .header__image {
+    max-width: 768px;
+    width: 768px;
+    display: flex;
+    justify-content: center;
+    margin: 69px 0 88px 0;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__logo {
+    max-width: 200px;
+    width: 200px;
+    max-height: 51px;
+    display: flex;
+    margin: auto 20px auto 50px;
+  }
+
+  .header__image__logo  {
+    width: 100%;
+  }
+
+  .header__text_title {
+    max-width: 288px;
+    max-height: 88px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 50px 44px 60px 44px;
+  }
+
+  .header__text_subtitle {
+    max-width: 288px;
+    max-height: 40px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: auto;
+  }
+
+  .header__image {
+    margin: 40px 0 44px 0;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+}

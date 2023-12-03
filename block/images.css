@@ -1,0 +1,111 @@
+.images {
+  max-width: 1184px;
+  display: grid;
+  grid-gap: 16px 16px;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.section__images_cities {
+}
+
+.cards {
+  width: 987px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.card__image {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__city_name {
+  width: 480px;
+  font-family: Inter;
+  font-size: 45rem;
+  font-weight: 900;
+  line-height: 47rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.city_name-artista {
+  margin-top: 190px;
+  margin-bottom: 5px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: #aaaaaa;
+}
+
+.city_name-nome {
+  margin-top: 0;
+  margin-bottom: 72px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.city_description {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+}
+
+.card__content_about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 484px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card__city_image {
+  width: 460px;
+  height: 460px;
+}
+
+.button {
+  background: #0278fe;
+  color: #ffffff;
+  weight: 600;
+  width: 355px;
+  height: 48px;
+  font-family: Inter;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width:320px) {
+
+}

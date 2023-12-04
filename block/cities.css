@@ -1,5 +1,5 @@
 .content {
-  display: flex;
+  /* display: flex; */
   margin: auto;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .citation {
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
@@ -31,7 +31,7 @@
 }
 
 .quote_author {
-  font-family: Inter;
+  font-family: "Inter";
   max-width: 720px;
   font-size: 24px;
   font-weight: 400;
@@ -43,7 +43,7 @@
 }
 
 .section__description {
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -58,12 +58,12 @@
 @media screen and (max-width: 768px) {
   .content {
     width: 100vw;
-    display: flex;
+    /* display: flex; */
     margin: auto;
   }
 
   .cities {
-    width: 100vw;
+    /* width: 100vw; */
     margin: 88px 24px 64px;
   }
 
@@ -76,6 +76,7 @@
   }
 
   .citation {
+    max-width: 707px;
     font-family: "Inter";
     font-size: 1.5rem;
     font-weight: 400;
@@ -86,6 +87,13 @@
   }
 
   .quote_author {
+    font-family: "Inter";
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.12rem;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-top: 9px;
   }
 
   .section__description {
@@ -101,7 +109,7 @@
 @media screen and (max-width: 320px) {
   .content {
     width: 100vw;
-    display: flex;
+    /* display: flex; */
     margin: auto;
   }
 

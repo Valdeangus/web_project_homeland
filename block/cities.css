@@ -4,13 +4,14 @@
 }
 
 .cities {
+  width: 828px;
+  max-width: 828px;
   display: flex;
   flex-direction: column;
   margin: 92px 304px 92px 148px;
 }
 
 .section__title {
-  max-width: 828px;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
@@ -63,7 +64,8 @@
   }
 
   .cities {
-    /* width: 100vw; */
+    width: 100%;
+    max-width: 824px;
     margin: 88px 24px 64px;
   }
 

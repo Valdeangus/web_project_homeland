@@ -1,0 +1,312 @@
+.cards {
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "city artist"
+    "image description_text"
+    "button description_text"
+    ". description_text";
+  margin: auto 142px;
+  gap: 48px 40px;
+
+}
+
+.card__city-info {
+  display: flex;
+  grid-area: info;
+  flex-direction: column;
+}
+
+.card__city {
+  grid-area: city;
+  font-family: "Inter";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align:left;
+  margin: auto 0 0;
+}
+
+.name__artista {
+  grid-area: artist;
+  margin-bottom: 0;
+}
+
+.city__name-artista {
+  /* grid-area: artist; */
+  margin-top: 190px;
+  margin-bottom: 5px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: #aaaaaa;
+}
+
+.city__name-nome {
+  margin-top: 0;
+  margin-bottom: 72px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+.card__image {
+}
+
+.card__city_image {
+  grid-area: image;
+  /* max-width: 460px; */
+  width: 100%;
+  /* max-height: 460px; */
+  margin-bottom: 40px;
+}
+
+.description_text {
+  grid-area: description_text;
+}
+
+.city__description {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 25px;
+}
+
+.button {
+  grid-area: button;
+  background: #0278fe;
+  color: #ffffff;
+  font-weight: 600;
+  width: 355px;
+  height: 48px;
+  font-family: "Inter";
+  font-size: 18px;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.card__content_about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 484px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+  }
+
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "city artist"
+      "image description_text"
+      "button description_text"
+      ". description_text";
+    margin: 88px 11px 31px 24px ;
+    gap: 48px 26px;
+
+  }
+
+  .card__city-info {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card__city {
+    grid-area: city;
+    font-family: "Inter";
+    font-size: 2.62rem;
+    font-weight: 900;
+    line-height: 2.87rem;
+    letter-spacing: 0em;
+    text-align:left;
+    margin: 0;
+  }
+
+  .name__artista {
+    grid-area: artist;
+    /* padding-top: 10px; */
+    margin: 0;
+  }
+
+  .city__name-artista {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.93rem;
+    letter-spacing: 0.12em;
+    text-align: left;
+    color: #aaaaaa;
+    margin: 0;
+  }
+
+  .city__name-nome {
+    font-size: 1.12rem;
+    font-weight: 400;
+    line-height: 1.37rem;
+    letter-spacing: 0em;
+    text-align: left;
+    /* margin: 0; */
+  }
+
+  .card__city_image {
+    grid-area: image;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .description_text {
+    grid-area: description_text;
+  }
+
+  .city__description {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.62rem;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 0 25px;
+  }
+
+  .button {
+    grid-area: button;
+    font-weight: 600;
+    max-width: 355px;
+    font-size: 1.12rem;
+    border-radius: 4px;
+    margin: 0;
+  }
+
+  /* .card__content_about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 484px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+  }*/
+}
+
+@media screen and (max-width: 320px) {
+  .cards {
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin: 62px auto 37px;
+    gap: 30px;
+
+  }
+
+  /* .card__city-info {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+  } */
+
+  .card__city {
+    grid-area: city;
+    font-family: "Inter";
+    font-size: 2.62rem;
+    font-weight: 900;
+    line-height: 2.87rem;
+    letter-spacing: 0em;
+    text-align:left;
+    margin: 0 16px;
+  }
+
+  .name__artista {
+    grid-area: artist;
+    /* padding-top: 10px; */
+    margin: 0 0 8px;
+  }
+
+  .city__name-artista {
+    font-size: 0.90rem;
+    font-weight: 400;
+    line-height: 1.12rem;
+    letter-spacing: 0.12em;
+    text-align: left;
+    color: #aaaaaa;
+    margin: 0 16px;
+  }
+
+  .city__name-nome {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.37rem;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 16px;
+  }
+
+  .card__city_image {
+    grid-area: image;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .description_text {
+    grid-area: description_text;
+  }
+
+  .city__description {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.62rem;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 16px;
+  }
+
+  .button {
+    grid-area: button;
+    font-weight: 600;
+    max-width: 288px;
+    font-size: 0.87rem;
+    border-radius: 4px;
+    margin: 0 auto;
+  }
+
+  /* .card__content_about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 484px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+} */
+}

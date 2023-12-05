@@ -27,18 +27,13 @@
   grid-template-areas:
     "city artist"
     "image description_text"
-    "image description_text"
-    "button description_text"
-    ". description_text";
+    "button description_text";
   margin: auto 142px;
   column-gap: 40px;
 }
 
-.button {
-  grid-area: ;
-}
-
 .card__city {
+  grid-area: city;
   font-family: "Inter";
   font-size: 72px;
   font-weight: 900;
@@ -48,7 +43,12 @@
   margin-bottom: 0;
 }
 
+.name__artista {
+  grid-area: artist;
+}
+
 .city__name-artista {
+  grid-area: artist;
   margin-top: 190px;
   margin-bottom: 5px;
   font-family: "Inter";
@@ -77,12 +77,14 @@
 }
 
 .card__city_image {
+  grid-area: image;
   max-width: 460px;
   max-height: 460px;
 
 }
 
 .city__description {
+  grid-area: description_text;
   font-family: "Inter";
   font-size: 18px;
   font-weight: 400;
@@ -93,11 +95,12 @@
   margin-bottom: 25px;
 }
 
-.city__description-span::before {
-  font-size: 25px;
+.city__description-span {
+  grid-area: span;
 }
 
 .button {
+  grid-area: button;
   background: #0278fe;
   color: #ffffff;
   font-weight: 600;

@@ -8,3 +8,7 @@ Flexbox;
 Grid;
 Metodologia BEM;
 .Nojekyll.
+
+## LINK do projeto
+
+https://valdeangus.github.io/web_project_homeland/

@@ -1,1 +1,10 @@
 # Tripleten web_project_homeland
+
+Estudo de responsividade durante a diagramação de uma página da galeria de arte da Practicum.
+
+## Características do projeto
+
+Flexbox;
+Grid;
+Metodologia BEM;
+.Nojekyll.

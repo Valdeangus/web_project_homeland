@@ -1,4 +1,13 @@
 .footer .footer_copyright {
   display: flex;
   justify-content: center;
+  margin: 92px auto 24px;
+}
+
+@media screen and (max-width:768px) {
+  /* margin: 88px auto 24px; */
+}
+
+@media screen and (max-width:320px) {
+
 }

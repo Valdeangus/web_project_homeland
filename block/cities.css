@@ -1,10 +1,8 @@
 .content {
-  /* display: flex; */
   margin: auto;
 }
 
 .cities {
-  width: 828px;
   max-width: 828px;
   display: flex;
   flex-direction: column;
@@ -59,7 +57,6 @@
 @media screen and (max-width: 768px) {
   .content {
     width: 100vw;
-    /* display: flex; */
     margin: auto;
   }
 
@@ -71,47 +68,33 @@
 
   .section__title {
     max-width: 707px;
-    font-family: "Inter";
-    font-weight: 900;
     font-size: 3.37rem;
     line-height: 3.62rem;
   }
 
   .citation {
     max-width: 707px;
-    font-family: "Inter";
     font-size: 1.5rem;
-    font-weight: 400;
     line-height: 2.12rem;
-    letter-spacing: 0rem;
-    text-align: left;
-    margin: auto;
+    margin: auto 0;
   }
 
   .quote_author {
-    font-family: "Inter";
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 2.12rem;
-    letter-spacing: 0em;
-    text-align: right;
     margin-top: 9px;
   }
 
   .section__description {
-    font-family: "Inter";
     font-size: 1rem;
-    font-weight: 400;
     line-height: 1.62rem;
-    letter-spacing: 0em;
-    text-align: left;
   }
 }
 
 @media screen and (max-width: 320px) {
   .content {
     width: 100vw;
-    /* display: flex; */
     margin: auto;
   }
 
@@ -122,31 +105,19 @@
   }
 
   .section__title {
-    font-family: "Inter";
-    font-weight: 900;
     font-size: 2rem;
     line-height: 2.18rem;
-    letter-spacing: 0em;
-    text-align: left;
   }
 
   .citation {
-    font-family: "Inter";
     font-size: 1.5rem;
-    font-weight: 400;
     line-height: 1.87rem;
-    letter-spacing: 0rem;
-    text-align: left;
     margin-bottom: 55px;
   }
 
   .quote_author {
-    font-family: "Inter";
     font-size: 1.5rem;
-    font-weight: 400;
     line-height: 2.12rem;
-    letter-spacing: 0em;
-    text-align: right;
     margin-top: 9px;
     margin-bottom: 32px;
   }

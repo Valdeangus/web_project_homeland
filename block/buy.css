@@ -1,8 +1,22 @@
 .buy {
-  /* position: absolute; */
+  max-width: 1184px;
+  width: 100vw;
+  height: 740px;
+  margin: 12px auto 0px;
+  color: white;
   display: flex;
-  justify-content: space-around;
-  /* margin: 0 auto; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  background: rgba(42, 44, 47, 0.4) url(../images/__background.png) no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.buy:hover {
+  background: rgba(42, 44, 47, 1) url(../images/__background.png) no-repeat;
+  transition: 0.5s;
 }
 
 .buy_NFT {
@@ -10,7 +24,6 @@
 }
 
 .image_camp {
-  /* background-image: url(../images/__background.png); */
   width: 100%;
   max-width: 1184px;
 }
@@ -19,35 +32,30 @@
 }
 
 .visitus {
-  position: absolute;
-  /* flex-direction: column;
-  align-content: center; */
+  max-width: 656px;
   top: 243px;
   right: 264px;
   width: 656px;
-  max-width: 656px;
 }
 
 .visitus__title {
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
   letter-spacing: 0em;
   text-align: center;
   margin: 0;
-  /* text-align: center; */
 }
 
 .visitus__text {
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
   margin: 32px auto;
-  /* text-align: center; */
 }
 
 .visitus__button {
@@ -55,147 +63,89 @@
   color: #fff;
   width: 191px;
   height: 48px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
+  border: none;
   border-radius: 4px;
   margin: 0 232px;
-  /* gap: 10px; */
 }
-
 
 .visitus__button:hover {
   background-color: #0063D2;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 768px) {
   .buy {
-    /* position: absolute; */
+    background: rgba(42, 44, 47, 0.4) url(../images/__backgroundtablet_img.png) no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
-    /* margin: 0 auto; */
   }
 
-  .buy_NFT {
-    position: relative;
-  }
-
-  .image_camp {
-    background-image: url(../images/__backgroundtablet_img.png);
-    width: 100%;
-    height: 746px;
-    width: 768px;
-  }
-
-  .visitus {
-    position: absolute;
-    /* flex-direction: column;
-    align-content: center; */
-    top: 246px;
-    right: 56px;
-    width: 656px;
-    /* max-width: 656px; */
+  .buy:hover {
+    background: rgba(42, 44, 47, 1) url(../images/__backgroundtablet_img.png) no-repeat;
+    background-size: cover;
+    transition: 0.5s;
   }
 
   .visitus__title {
-    font-family: Inter;
     font-size: 4.5rem;
-    font-weight: 900;
     line-height: 4.75rem;
-    letter-spacing: 0em;
-    text-align: center;
     margin: 0;
-    /* text-align: center; */
   }
 
   .visitus__text {
-    font-family: Inter;
-    font-size: 1.12px;
-    font-weight: 400;
+    font-size: 1.12rem;
     line-height: 1.37rem;
-    letter-spacing: 0em;
-    text-align: center;
     margin: 32px auto;
-    /* text-align: center; */
   }
 
   .visitus__button {
-    background-color: #0278fe;
-    color: #fff;
-    width: 191px;
-    height: 48px;
-    font-family: Inter;
+    max-width: 191px;
     font-size: 1.12rem;
-    font-weight: 600;
     line-height: 1.37rem;
-    letter-spacing: 0em;
-    text-align: center;
-    border-radius: 4px;
     margin: 0 232px;
-    /* gap: 10px; */
   }
 }
 
 @media screen and (max-width: 320px) {
   .buy {
-    /* position: absolute; */
+    background: rgba(42, 44, 47, 0.4) url(../images/__backgroundtablet_img.png) no-repeat;
+    background-size: cover;
+    max-width: 320px;
+    max-height: 254px;
     display: flex;
     justify-content: space-around;
-    /* margin: 0 auto; */
   }
 
-  .buy_NFT {
-    position: relative;
-    /* overlay: rgb(42, 44, 47); */
-    /* z-index: 1; */
-  }
-
-  .image_camp {
-    width: 100vw;
-    max-width: 320px;
-    height: auto;
+  .buy:hover {
+    background: rgba(42, 44, 47, 1) url(../images/__backgroundtablet_img.png) no-repeat;
+    background-size: cover;
+    transition: 0.5s;
   }
 
   .visitus {
-    position: absolute;
-    /* flex-direction: column;
-    align-content: center; */
-
-    top: 46px;
-    right: 16px;
-    width: 656px;
     max-width: 288px;
-
   }
 
   .visitus__title {
     font-size: 2rem;
-    font-weight: 900;
     line-height: 2.18rem;
-    letter-spacing: 0em;
   }
 
   .visitus__text {
     font-size: 0.87rem;
-    font-weight: 400;
     line-height: 1rem;
-    letter-spacing: 0em;
-    /* text-align: center; */
   }
 
   .visitus__button {
     font-size: 1.12rem;
-    font-weight: 600;
     line-height: 1.37rem;
-    letter-spacing: 0em;
-    text-align: left;
-    letter-spacing: 0em;
     margin: 0 49px;
-    text-align: center;
-
   }
-
 }

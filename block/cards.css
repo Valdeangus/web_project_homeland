@@ -13,7 +13,6 @@
 
 .card__city {
   grid-area: city;
-  font-family: "Inter";
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
@@ -28,7 +27,6 @@
 }
 
 .city__name_artista {
-  font-family: "Inter";
   margin-top: 190px;
   margin-bottom: 5px;
   font-size: 12px;
@@ -40,7 +38,6 @@
 }
 
 .city__name_nome {
-  font-family: "Inter";
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -60,7 +57,6 @@
 }
 
 .city__description_text {
-  font-family: "Inter";
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
@@ -70,7 +66,6 @@
 }
 
 .button {
-  font-family: "Inter";
   grid-area: button;
   background: #0278fe;
   color: #ffffff;

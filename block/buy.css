@@ -35,7 +35,7 @@
   max-width: 656px;
   top: 243px;
   right: 264px;
-  width: 656px;
+  /* width: 656px; */
 }
 
 .visitus__title {
@@ -83,14 +83,21 @@
   .buy {
     background: rgba(42, 44, 47, 0.4) url(../images/__backgroundtablet_img.png) no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
   }
 
   .buy:hover {
     background: rgba(42, 44, 47, 1) url(../images/__backgroundtablet_img.png) no-repeat;
     background-size: cover;
     transition: 0.5s;
+  }
+
+  .visitus {
+    width: 100%;
+    /* top: 243px; */
+    /* right: 264px; */
+    /* width: 656px; */
   }
 
   .visitus__title {
@@ -106,7 +113,7 @@
   }
 
   .visitus__button {
-    max-width: 191px;
+    /* max-width: 191px; */
     font-size: 1.12rem;
     line-height: 1.37rem;
     margin: 0 232px;
@@ -115,18 +122,18 @@
 
 @media screen and (max-width: 320px) {
   .buy {
-    background: rgba(42, 44, 47, 0.4) url(../images/__backgroundtablet_img.png) no-repeat;
-    background-size: cover;
+    /* background: rgba(42, 44, 47, 0.4) url(../images/__backgroundtablet_img.png) no-repeat; */
+    /* background-size: cover; */
     max-width: 320px;
     max-height: 254px;
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: space-around; */
   }
 
   .buy:hover {
-    background: rgba(42, 44, 47, 1) url(../images/__backgroundtablet_img.png) no-repeat;
+    /* background: rgba(42, 44, 47, 1) url(../images/__backgroundtablet_img.png) no-repeat;
     background-size: cover;
-    transition: 0.5s;
+    transition: 0.5s; */
   }
 
   .visitus {

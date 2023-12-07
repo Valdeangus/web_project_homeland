@@ -52,7 +52,7 @@
   margin-bottom: 75px;
 }
 
-.cities_author {
+.cities__author {
   max-width: 720px;
   font-size: 24px;
   font-weight: 400;
@@ -125,7 +125,7 @@
     line-height: 3.62rem;
   }
 
-  .cities_author {
+  .cities__author {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 2.12rem;
@@ -183,7 +183,7 @@
     line-height: 2.18rem;
   }
   
-  .cities_author {
+  .cities__author {
     font-size: 1.5rem;
     line-height: 2.12rem;
     margin-top: 9px;

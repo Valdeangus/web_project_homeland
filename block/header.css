@@ -69,7 +69,6 @@
   letter-spacing: 0em;
   text-align: left;
   max-width: 720px;
-  font-size: 16px;
   line-height: 26px;
   margin: 0;
 }
@@ -134,7 +133,6 @@
   }
 
   .cities__citation {
-    line-height: 1.62rem;
     max-width: 707px;
     font-size: 1.5rem;
     line-height: 2.12rem;
@@ -195,7 +193,6 @@
   .cities__citation {
     font-size: 1.5rem;
     margin-top: auto;
-    margin-bottom: 0;
     line-height: 1.87rem;
     margin-bottom: 55px;
   }

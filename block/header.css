@@ -8,7 +8,7 @@
   margin: 34px auto 90px auto;
 }
 
-.header__logo_image {
+.header__logo-image {
   width: 100%;
 }
 
@@ -85,7 +85,7 @@
     margin: 34px auto 90px auto;
   }
 
-  .header__logo_image {
+  .header__logo-image {
     max-width: 270px;
   }
 
@@ -152,7 +152,7 @@
     margin: 20px 60px 50px 60px;
   }
 
-  .header__logo_image {
+  .header__logo-image {
     max-width: 200px;
   }
 

@@ -156,7 +156,7 @@
     max-width: 200px;
   }
 
-  .header__text_title {
+  .header__title {
     max-width: 288px;
     font-size: 2.5rem;
     line-height: 2.75rem;
@@ -164,7 +164,7 @@
     margin: auto 16px 60px;
   }
 
-  .header__text_subtitle {
+  .header__subtitle {
     max-width: 288px;
     font-size: 1rem;
     line-height: 1.25rem;

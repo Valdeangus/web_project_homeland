@@ -79,9 +79,11 @@
 }
 
 .button:hover {
+  cursor: pointer;
   background-color: #0063d2;
   transition: 0.5s;
 }
+
 
 @media screen and (max-width: 768px) {
   .card {
@@ -138,9 +140,6 @@
 @media screen and (max-width: 320px) {
   .cards{
     width: 100vw;
-        /* max-width: 733px; */
-
-
   }
 
   .card {

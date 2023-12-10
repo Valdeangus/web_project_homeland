@@ -58,7 +58,6 @@
 
 .visitus__button {
   background-color: #0278fe;
-  color: #fff;
   width: 191px;
   height: 48px;
   font-size: 18px;
@@ -72,8 +71,10 @@
 }
 
 .visitus__button:hover {
+  color: #ffffff;
   background-color: #0063D2;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -86,9 +87,6 @@
     background: rgba(42, 44, 47, 1) url(../images/__backgroundtablet_img.png) no-repeat;
     background-size: cover;
     transition: 0.5s;
-  }
-
-  .visitus {
   }
 
   .visitus__title {
@@ -114,6 +112,7 @@
     max-width: 320px;
     max-height: 254px;
   }
+
   .visitus {
     max-width: 288px;
   }

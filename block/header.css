@@ -73,7 +73,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .header {
     width: 100vw;
     display: flex;
@@ -140,7 +140,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .header {
     width: 100vw;
     display: flex;

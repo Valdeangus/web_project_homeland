@@ -10,17 +10,9 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
-  .page {
-    color: #fff;
-    font-family: Inter, sans-serif;
-  }
+@media screen and (max-width: 1024px) {
 }
 
-@media screen and (max-width: 320px) {
-  .page {
-    color: #fff;
-    font-family: Inter, sans-serif;
-  }
+@media screen and (max-width: 544px) {
 }
 

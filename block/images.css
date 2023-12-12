@@ -12,14 +12,14 @@
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .images {
     max-width: 720px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .images {
     max-width: 288px;
     grid-gap: 12px;

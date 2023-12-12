@@ -84,7 +84,7 @@
   transition: 0.5s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .card {
     max-width: 733px;
     margin: 88px 11px 31px 24px;
@@ -140,7 +140,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .cards {
     width: 100vw;
   }
